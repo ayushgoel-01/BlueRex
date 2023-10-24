@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const Sec2 = () => {
   return (
@@ -23,7 +24,7 @@ export const Sec2 = () => {
                 </div>
 
                 <div className="sec-2-lower">
-                    <a href=""><button> <a href="#">Read More</a> </button></a>
+                    <a href=""><button> <Link to="/Review">Read More</Link> </button></a>
                 </div>
 
             </div>

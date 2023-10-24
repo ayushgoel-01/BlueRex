@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const Sec4 = () => {
   return (
@@ -44,7 +45,7 @@ export const Sec4 = () => {
                     <img src={require("./images/grid-9.png")} alt=""></img>
                 </div>
                 <div>
-                    <button className="sec6-btn sec5-btn"><a href="#">Read More</a></button>
+                    <button className="sec6-btn sec5-btn"><Link to="/Review">Read More</Link></button>
                 </div>
             </div>
 

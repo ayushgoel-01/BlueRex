@@ -56,8 +56,8 @@ export const Sec1 = () => {
                         for massive growth.</h3></div>
 
                     <div className="btn-grp">
-                        <button className="b1"><a href="#product">Our Story</a></button>
-                        <button className="b2"><a href="#review">Read More</a></button>
+                        <button className="b1"><Link to="/About">Our Story</Link></button>
+                        <button className="b2"><Link to="/Feature">Read More</Link></button>
                     </div>
                 </div>
 

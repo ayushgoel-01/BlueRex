@@ -17,20 +17,21 @@ import { Sec11 } from "./Sec11";
 import { Nav } from "./Nav";
 import { Signin } from "./Signin";
 import { Signup } from "./Signup";
+import {Result} from "./Result";
+import { Result2 } from "./Result2";
 
 
 function Landing(){
     
-    return (
+return (
         
-        <div className="wrapper">
+    <div className="wrapper">
         <div className="container">
 
-
-            <Nav/>
-
-
+        <Nav/>
+            
         <Routes>
+            <Route path='/' element={<Sec1/>}/> 
             <Route path='/Home' element={<Sec1/>}/> 
             <Route path='/about' element={<Sec2/>}/>
             <Route path='/feature' element={<Sec3/>}/>
@@ -40,21 +41,9 @@ function Landing(){
             <Route path='/contact' element={<Sec7/>}/>
             <Route path='/Signin' element={<Signin/>}/>
             <Route path='/Signup' element={<Signup/>}/>
-
-            </Routes>
-
-        {/* <Signin/> */}
-        {/* <Sec1/> */}
-        {/* <Sec2/>
-        <Sec3/>
-        <Sec4/>
-        <Sec5/>
-        <Sec6/>
-        <Sec7/>
-        <Sec8/>
-        <Sec9/>
-        <Sec10/>
-        <Sec11/>     */}
+            <Route path='/Result' element={<Result/>}/>
+            <Route path='/Result2' element={<Result2/>}/>
+        </Routes>
 
         <div>
             <div className="footer">
@@ -63,11 +52,12 @@ function Landing(){
                 <div><a href="#">Terms of Use</a></div>
                 <div><a href="#">Site Map</a></div>
             </div>
+        </div>
+
     </div>
 </div>
-</div>
 
-    );
+);
 }
 
 export default Landing;

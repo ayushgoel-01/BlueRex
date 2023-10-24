@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const Sec3 = () => {
   return (
@@ -32,7 +33,7 @@ export const Sec3 = () => {
             <div className="sec-4-main"><h2>We turn creative ideas into your business.</h2></div>
             <div className="sec-4-para"><p>At the heart of innovation lies the transformative power of human imagination. We are the architects of possibility, the dreamers of the improbable, and the fearless visionaries who turn ideas into reality.</p></div>
             <div>
-                <button className="sec-4-btn"><a href="#">Read More</a></button>
+                <button className="sec-4-btn"><Link to="/Review">Read More</Link></button>
             </div>
         </div>
 
@@ -49,14 +50,14 @@ export const Sec3 = () => {
                         <div><img src={require("./images/chat.png")} alt=""></img></div>
                     <h3>Graphic Design</h3>
                     <p>It plays a pivotal role in shaping the visual identity of brands and products.</p>
-                    <button className="sec5-btn"><a href="#">Read More</a></button>
+                    <button className="sec5-btn"><Link to="/Review">Read More</Link></button>
                 </div>
 
                 <div className="sec5-l2">
                     <div><img src={require("./images/horn-2.png")} alt=""></img></div>
                     <h3>Graphic Design</h3>
                     <p>It plays a pivotal role in shaping the visual identity of brands and products.</p>
-                    <button className="sec5-btn"><a href="#">Read More</a></button>
+                    <button className="sec5-btn"><Link to="/Review">Read More</Link></button>
                 </div>
                 </div>
 

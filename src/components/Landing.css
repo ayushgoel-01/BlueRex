@@ -1,3 +1,24 @@
+/* Signin Signup result page */
+.result{
+    height: 81vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.result-btn{
+    border: 2px solid black;
+    height: 30px;
+    width: 100px;
+}
+
+.result-btn a{
+    text-decoration: none;
+    color: black;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -824,6 +845,59 @@
     button:hover{
         cursor: pointer;
     }
+
+
+/* Contact form */
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #d02438, #442e82);
+    width: 100vw;
+    height: 100vh;
+}
+.contact-form{
+    height: 450px;
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color:rgb(6, 80, 104);
+}
+.contact-form textarea{
+    height: 120px;
+    width: 200px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+}
+.contact-btn{
+    height: 35px;
+    width: 160px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}
+.contact-btn a{
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.contact-heading{
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+
 
 /* Signin */
 .top{
@@ -1827,6 +1901,62 @@ input{
     button:hover{
         cursor: pointer;
     }
+
+
+/* Contact form */
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #d02438, #442e82);
+    width: 100vw;
+    height: 100vh;
+}
+.contact-form{
+    height: 400px;
+    width: 380px;
+    margin-top: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color:rgb(6, 80, 104);
+}
+.contact-form textarea{
+    height: 110px;
+    width: 200px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+}
+.contact-btn{
+    height: 35px;
+    width: 160px;
+    border-radius: 5px;
+    border: none;
+    margin-top:15px;
+    margin-bottom: 10px;
+}
+.contact-btn a{
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.contact-heading{
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+
 
 
 /* Signin */
@@ -2843,6 +2973,61 @@ input{
     button:hover{
         cursor: pointer;
     }
+
+
+/* Contact form */
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #d02438, #442e82);
+    width: 100vw;
+    height: 100vh;
+}
+.contact-form{
+    height: 400px;
+    width: 350px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color:rgb(6, 80, 104);
+}
+.contact-form textarea{
+    height: 110px;
+    width: 180px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+}
+.contact-btn{
+    height: 35px;
+    width: 140px;
+    border-radius: 5px;
+    border: none;
+    margin-top:15px;
+    margin-bottom: 10px;
+}
+.contact-btn a{
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.contact-heading{
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+
 
 /* Signin */
 .top{
