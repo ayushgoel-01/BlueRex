@@ -19,6 +19,7 @@ import { Signin } from "./Signin";
 import { Signup } from "./Signup";
 import {Result} from "./Result";
 import { Result2 } from "./Result2";
+import { All } from "./All";
 
 
 function Landing(){
@@ -31,7 +32,7 @@ return (
         <Nav/>
             
         <Routes>
-            <Route path='/' element={<Sec1/>}/> 
+            <Route path='/' element={<All/>}/> 
             <Route path='/Home' element={<Sec1/>}/> 
             <Route path='/about' element={<Sec2/>}/>
             <Route path='/feature' element={<Sec3/>}/>
