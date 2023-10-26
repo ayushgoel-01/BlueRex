@@ -18,8 +18,6 @@ export const All = () => {
         <Sec5/>
         <Sec6/>
         {/* <Sec7/> */}
-        <Sec8/>
-
     </div>
   )
 }
